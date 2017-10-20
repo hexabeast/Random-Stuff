@@ -1,0 +1,220 @@
+body 
+{
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif ;
+    background-color: #DDDDDD;
+}
+
+a
+{
+    margin:0;
+    padding:0;
+}
+
+
+/* LEFT PANEL*/
+li.nospot
+{
+    list-style:None;
+}
+
+ul.navbar 
+{
+  font-size: 0;
+  padding: 0em;
+  margin:left;
+  float:left;
+  width:100%;
+}
+ul.navbar li 
+{
+  margin:0;
+  padding:0px;
+  padding-top: 15px; 
+}
+
+img.buttonpanel
+{
+  margin: 0; 
+  padding: 0;
+  border: 1px solid #D1D1D1;
+}
+
+.panel
+{
+    z-index: 998;
+    overflow: visible;
+    position:fixed;
+    height:100%;
+    left:0px;
+    top:10em;
+    width:271px;
+    
+    background: #F1F1F1;
+    border-top: 2px solid #C5C5C5;
+    border-right: 2px solid #C5C5C5;
+}
+/* FIN LEFT PANEL*/
+
+
+
+/* CONTENT PANEL*/
+
+#container 
+{
+    position: absolute;
+    width:100%;
+    height:auto;
+    left:271px;
+
+    top:10em;
+}
+
+table.cpanel
+{
+    border-spacing: 8px;
+}
+
+table.cpanel td
+{
+    line-height: 50px;
+    
+    /*text-align: left;*/
+    left : 100px;
+    vertical-align: middle;
+    font-size:25px;
+    background: #F5F5F5;
+    width:50%;
+    height:60px;
+    
+}
+
+.columns
+{   
+    -moz-column-width: 450px; /* Firefox */
+    -webkit-column-width: 450px; /* webkit, Safari, Chrome */
+    column-width: 450px;
+}
+
+.columns ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.columns ul li:first-child
+{
+    margin-top:0px;
+}
+
+img.cpanelimg
+{
+    float:left;
+    position: relative;
+    height: 50px;
+    width:auto;
+}
+
+.valtemp
+{
+    float : right;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.titletemp
+{
+    margin-left:4%;
+}
+
+img.plus
+{
+    float:right;
+}
+
+img.power
+{
+    float:right;
+    right:5px;
+}
+
+.humid
+{
+    float:right;
+    margin-right:5px;
+}
+
+img.minus
+{
+    float:right;
+
+}
+
+/* FIN CONTENT PANEL*/
+
+
+/*HEADER*/
+#imghead
+{
+    padding-left: 0em;
+}
+
+
+.head
+{
+    z-index: 999;
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:10em;
+    left:0em;
+    background: #FFFFFF;
+    border-bottom: 2px solid #C5C5C5;
+}
+/* FIN HEADER*/
+
+
+
+/*FOOTER*/
+.foot
+{
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+    height:6em;
+    left:0em;
+    background: #EEEEEE;
+    border-top: 2px solid #C5C5C5;
+}
+
+/*FIN FOOTER*/
+
+/*BULLSHIT*/
+.clear
+{
+  clear: both;
+}
+
+#ball
+{
+    z-index: 9999;
+    position:fixed;
+    left:33px;
+    top:46px;
+    width:23px;
+    height:23px;
+}
+/*FIN BULLSHIT*/
+
+.comingsoon
+{
+    width:100%;
+    height:100%;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+
+    color:#B8B8B8;
+    margin-top:100px;
+}

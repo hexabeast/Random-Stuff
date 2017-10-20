@@ -1,0 +1,9 @@
+Le fichier "Lancement.bat" permet de lancer le script main.py avec la version de Python intégrée.
+
+La partie "reconnaissance" est désactivée dans cette version (car il faudrait la boite-scanner en carton et un autre module pour qu'elle fonctionne)
+
+Pour tourner autour du cube : clic droit et bouger la souris
+Pour zoomer sur le cube : les deux clics et bouger la souris
+
+IMPORTANT : Il faut rester dans la fenêtre graphique lorsqu'on appuie sur des touches pour dire au script quoi faire.
+Cependant, les instructions concernant les touches sur lesquelles appuyer sont données dans la fenêtre de commande.
